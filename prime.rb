@@ -5,5 +5,6 @@ def prime?()
     (2..num - 1).to_a.all? do |factoring|
       num % factoring != 0
       return true
+    end
   end
 end
